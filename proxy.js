@@ -9,6 +9,8 @@ function FindProxyForURL(url, host)
     var exceptions = new Array(     
         /\.local$/,
         /\.dsi$/,
+	/\.danafix\.id$/,
+	/\.danafix\.net$/,
         /\.fineasy\.id$/,
         /^fineasy\.id$/,
         /\.skype\.com$/,
