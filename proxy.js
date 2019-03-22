@@ -4,6 +4,9 @@ function FindProxyForURL(url, host)
 
     // Proxy server in format "PROXY [proxy server]:[proxy port]"
     var proxy = "PROXY 01.proxy.danafix.net:31280";
+	
+    if (!isInNet(myIpAddress(), "10.99.0.0", "255.255.0.0"))
+        return "DIRECT";
      
     // Proxy Exceptions:
     var exceptions = new Array(     
