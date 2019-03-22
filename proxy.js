@@ -17,7 +17,6 @@ function FindProxyForURL(url, host)
         /\.fineasy\.id$/,
 	/\.idcloudonline\.com$/,
         /^fineasy\.id$/,
-        /\.skype\.com$/,
         /\.mfi-ap\.asia$/
     );
      
