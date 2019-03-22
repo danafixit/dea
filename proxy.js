@@ -12,6 +12,7 @@ function FindProxyForURL(url, host)
 	/\.danafix\.id$/,
 	/\.danafix\.net$/,
         /\.fineasy\.id$/,
+	/\.idcloudonline\.com$/,
         /^fineasy\.id$/,
         /\.skype\.com$/,
         /\.mfi-ap\.asia$/
