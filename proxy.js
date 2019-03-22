@@ -3,7 +3,7 @@ function FindProxyForURL(url, host)
 	//if (true) return "DIRECT";
 
     // Proxy server in format "PROXY [proxy server]:[proxy port]"
-    var proxy = "PROXY proxy.pc.danafix.net:31280";
+    var proxy = "PROXY 01.proxy.danafix.net:31280";
      
     // Proxy Exceptions:
     var exceptions = new Array(     
